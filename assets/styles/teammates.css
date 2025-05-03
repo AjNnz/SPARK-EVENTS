@@ -1,0 +1,50 @@
+
+
+.team-member {
+    align-items: center;
+    margin-bottom: 100px;
+    padding: 50px;
+    background-color: #FFD1D6;
+    overflow: hidden;
+}
+
+.team-member h2 {
+    font-size: 32px;
+    color: #FF6F61; 
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.team-member h3 {
+    font-size: 20px;
+    color: #333; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.team-member img {
+    float: left;
+    margin: 60px 60px 0 20px;
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px #FFB0C0;
+}
+
+.section {
+    margin: 20px 0;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 36px;
+    color: #FF6F61;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 30px 0;
+}
