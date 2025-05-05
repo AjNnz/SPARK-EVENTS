@@ -52,6 +52,7 @@
     display: block;
     font-size: 24px;
     cursor: pointer;
+    color: #7A294E;
   }
 
   .nav-links {
@@ -61,13 +62,18 @@
     top: 60px;
     left: 0;
     width: 100%;
-    background: #FFB0C0;
+    background: #FFD6E0;
     text-align: center;
     padding: 10px 0;
   }
 
   .nav-links li {
     padding: 10px 0;
+    background-color: #FFD6E0;
+  }
+
+  .nav-links li:hover {
+    background-color: #FFC1D1; 
   }
 
   .menu-toggle:checked ~ .nav-links {
