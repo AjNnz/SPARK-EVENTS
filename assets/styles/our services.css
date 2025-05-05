@@ -131,14 +131,14 @@ input[type="checkbox"]:checked + .modal {
   cursor: pointer;
 }
 
-/* Media Query for Smaller Screens */
+
 @media (max-width: 768px) {
   .gallery {
-    gap: 8px; /* Reduce the gap between images */
+    gap: 8px; 
   }
 
   .gallery img {
-    height: 80px; /* Reduce the height of the images */
+    height: 80px; 
   }
 
   .Events {
@@ -149,14 +149,14 @@ input[type="checkbox"]:checked + .modal {
 
 @media (max-width: 480px) {
   .gallery img {
-    height: 60px; /* Further reduce the height for very small screens */
+    height: 60px; 
   }
 
   .Events h1 {
-    font-size: 30px; /* Reduce the font size for smaller screens */
+    font-size: 30px; 
   }
 
   .Events h3 {
-    font-size: 14px; /* Reduce the font size for smaller screens */
+    font-size: 14px; 
   }
 }
