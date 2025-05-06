@@ -48,3 +48,28 @@ h1 {
     margin-bottom: 20px;
     padding: 30px 0;
 }
+
+@media (max-width: 640px) {
+
+    .team-member {
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .team-member h2 {
+        padding-top: 20px;
+        font-size: 24px;
+    }
+
+    .team-member h3 {
+        font-size: 16px;
+    }
+
+    .team-member img {
+        float: none;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
