@@ -113,4 +113,14 @@
   .footer-logo img {
     width: 200px;
   }
+
+  .footer-logo {
+    flex: 1 0 100%;
+    align-items: center;
+  }
+
+  .footer-contact p {
+
+    text-align: center;
+  }
 }
